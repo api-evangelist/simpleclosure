@@ -1,7 +1,19 @@
 aid: simpleclosure
 name: Simpleclosure
-description: Simpleclosure is a company surfaced as a portfolio company of anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SimpleClosure is a business-dissolution and wind-down platform for founders,
+  startups, and business owners, positioning itself as "the shutdown standard."
+  It guides a company through the full closure process end to end - from the
+  first decision to wind down through the final state and federal filings -
+  covering entity dissolution (Delaware corporations, LLCs, S-corps), final tax
+  returns, creditor and vendor notifications, asset liquidation, distributions
+  to stakeholders, and compliance obligations. The company offers software plus
+  expert handling, with tailored solutions for lawyers, investors, and financial
+  services firms managing portfolio-company or client wind-downs. SimpleClosure
+  was named to Fast Company's Most Innovative Companies list and operates a
+  customer application at app.simpleclosure.com. It is a services-and-software
+  company rather than a developer API platform; as of this enrichment pass it
+  publishes no public developer API, OpenAPI, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/simpleclosure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,54 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://images.ctfassets.net/tx0hc13c5c2c/5RJq2zenVL5RZJDf5LJpRf/5ed872b6bde79eac1e4ed4f2cecca6a2/simple-closure-open-graph.webp
 tags:
 - Company
+- Business Dissolution
+- Startup Shutdown
+- Wind Down
+- Legal Tech
+- Fintech
+- Compliance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/simpleclosure-domain-security.yml
+- type: Website
+  url: https://simpleclosure.com
+- type: Blog
+  url: https://simpleclosure.com/blog/
+- type: StatusPage
+  url: https://status.simpleclosure.com
+- type: GitHubOrganization
+  url: https://github.com/simpleclosure
+- type: Login
+  url: https://app.simpleclosure.com
+- type: TermsOfService
+  url: https://simpleclosure.com/tos/
+- type: PrivacyPolicy
+  url: https://simpleclosure.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
