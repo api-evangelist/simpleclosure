@@ -32,7 +32,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 image: https://images.ctfassets.net/tx0hc13c5c2c/5RJq2zenVL5RZJDf5LJpRf/5ed872b6bde79eac1e4ed4f2cecca6a2/simple-closure-open-graph.webp
